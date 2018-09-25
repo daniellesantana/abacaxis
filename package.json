@@ -1,0 +1,14 @@
+{
+    "name": "abacaxis",
+    "description": "Amo abacaxis",
+    "version": "0.1.0",
+    "author": {
+        "name": "daniellesantana",
+        "email": "daniellesantanaf@gmail.com"
+    },
+    "preferGlobal": true,
+    "main": "abacaxis.txt",
+    "bin": {
+        "abacaxis": "abacaxis.txt"
+    }
+}
