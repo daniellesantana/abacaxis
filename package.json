@@ -1,13 +1,17 @@
 {
     "name": "abacaxis",
     "description": "Amo abacaxis",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "daniellesantana",
         "email": "daniellesantanaf@gmail.com"
     },
     "preferGlobal": true,
     "main": "abacaxis.txt",
+    "scripts": {
+        "postinstall": "cat abacaxis.txt",
+        "postversion": "npm publish"
+    },
     "bin": {
         "abacaxis": "abacaxis.txt"
     }
